@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    height: 800px;
+
+}
+.box{
+    text-align: center;
+    width: 25%
+}
+.box{
+    box-shadow: 1px 2px 2px 3px gray;
+    padding:10px;
+    font-size: 20px;
+    word-spacing: 20px;
+
+
+}
+#abhi{
+    margin-top:10px ;
+}
+#abhishek{
+    margin-top: 50px;
+}
+.img1{
+    width: 100%;
+
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: transform 300ms;
+    width: 80%;
+
+
+}
+button:hover{
+    background-color: black;
+}
+.button:active{
+    transform: scale(1.05,1.05);
+}
+h2{
+    text-decoration: underline;
+}
